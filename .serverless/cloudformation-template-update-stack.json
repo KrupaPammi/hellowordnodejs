@@ -92,7 +92,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/helloworld/dev/1511449276729-2017-11-23T15:01:16.729Z/helloworld.zip"
+          "S3Key": "serverless/helloworld/dev/1511450392431-2017-11-23T15:19:52.431Z/helloworld.zip"
         },
         "FunctionName": "helloworld-dev-app",
         "Handler": "hello.handler",
@@ -111,14 +111,14 @@
         "IamRoleLambdaExecution"
       ]
     },
-    "AppLambdaVersionID7LWsV2u0B9tm2mqREbAZ14wODDWlXoGIshCkiXKUU": {
+    "AppLambdaVersionLzjBAGKdOQ8V7g7t0iBsFCLxAK2aPw6nt6W7k60oFo": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "AppLambdaFunction"
         },
-        "CodeSha256": "ID7LWsV2u0B9tm2mqREbAZ14wODDWlXoGIshCkiXKUU="
+        "CodeSha256": "LzjBAGKdOQ8V7g7t0iBsFCLxAK2aP+w6nt6W7k60oFo="
       }
     },
     "ApiGatewayRestApi": {
@@ -223,7 +223,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1511449276739": {
+    "ApiGatewayDeployment1511450392441": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -279,7 +279,7 @@
     "AppLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "AppLambdaVersionID7LWsV2u0B9tm2mqREbAZ14wODDWlXoGIshCkiXKUU"
+        "Ref": "AppLambdaVersionLzjBAGKdOQ8V7g7t0iBsFCLxAK2aPw6nt6W7k60oFo"
       }
     },
     "ServiceEndpoint": {
