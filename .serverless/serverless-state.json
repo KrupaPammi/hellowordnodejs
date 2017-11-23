@@ -106,7 +106,11 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
+<<<<<<< HEAD
                 "S3Key": "serverless/helloworld/dev/1511447630546-2017-11-23T14:33:50.546Z/helloworld.zip"
+=======
+                "S3Key": "serverless/helloworld/dev/1511448818271-2017-11-23T14:53:38.271Z/helloworld.zip"
+>>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
               },
               "FunctionName": "helloworld-dev-app",
               "Handler": "hello.handler",
@@ -125,14 +129,22 @@
               "IamRoleLambdaExecution"
             ]
           },
+<<<<<<< HEAD
           "AppLambdaVersionw7TeN9vPqpaBiijOdeLqyVch5KnPTDOtTzpPmnrIJA": {
+=======
+          "AppLambdaVersionPxuzaZMNVZecWDZxHtrzQoYz7ApfvnGdxpy9xwBWr4M": {
+>>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
+<<<<<<< HEAD
               "CodeSha256": "w7TeN9vPqpaBiijOdeLqyVch5KnPTDOtTzpPmnr+IJA="
+=======
+              "CodeSha256": "PxuzaZMNVZecWDZxHtrzQoYz7ApfvnGdxpy9xwBWr4M="
+>>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
             }
           },
           "ApiGatewayRestApi": {
@@ -237,7 +249,11 @@
               "MethodResponses": []
             }
           },
+<<<<<<< HEAD
           "ApiGatewayDeployment1511447630555": {
+=======
+          "ApiGatewayDeployment1511448818281": {
+>>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -293,7 +309,11 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
+<<<<<<< HEAD
               "Ref": "AppLambdaVersionw7TeN9vPqpaBiijOdeLqyVch5KnPTDOtTzpPmnrIJA"
+=======
+              "Ref": "AppLambdaVersionPxuzaZMNVZecWDZxHtrzQoYz7ApfvnGdxpy9xwBWr4M"
+>>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
             }
           },
           "ServiceEndpoint": {
@@ -347,10 +367,14 @@
         "vpc": {}
       }
     },
-    "artifact": "/home/krupa/Documents/hellowordnodejs/.serverless/helloworld.zip"
+    "artifact": "/var/lib/jenkins/workspace/helloworld/.serverless/helloworld.zip"
   },
   "package": {
+<<<<<<< HEAD
     "artifactDirectoryName": "serverless/helloworld/dev/1511447630546-2017-11-23T14:33:50.546Z",
+=======
+    "artifactDirectoryName": "serverless/helloworld/dev/1511448818271-2017-11-23T14:53:38.271Z",
+>>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
     "artifact": "helloworld.zip"
   }
 }
