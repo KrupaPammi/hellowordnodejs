@@ -106,11 +106,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-<<<<<<< HEAD
-                "S3Key": "serverless/helloworld/dev/1511447630546-2017-11-23T14:33:50.546Z/helloworld.zip"
-=======
-                "S3Key": "serverless/helloworld/dev/1511448818271-2017-11-23T14:53:38.271Z/helloworld.zip"
->>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
+                "S3Key": "serverless/helloworld/dev/1511449106624-2017-11-23T14:58:26.624Z/helloworld.zip"
               },
               "FunctionName": "helloworld-dev-app",
               "Handler": "hello.handler",
@@ -129,22 +125,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-<<<<<<< HEAD
-          "AppLambdaVersionw7TeN9vPqpaBiijOdeLqyVch5KnPTDOtTzpPmnrIJA": {
-=======
-          "AppLambdaVersionPxuzaZMNVZecWDZxHtrzQoYz7ApfvnGdxpy9xwBWr4M": {
->>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
+          "AppLambdaVersione2LdZMhpjeFon6XErO4TwYZbk7lac2YpgX0MgxmXQiE": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
-<<<<<<< HEAD
-              "CodeSha256": "w7TeN9vPqpaBiijOdeLqyVch5KnPTDOtTzpPmnr+IJA="
-=======
-              "CodeSha256": "PxuzaZMNVZecWDZxHtrzQoYz7ApfvnGdxpy9xwBWr4M="
->>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
+              "CodeSha256": "e2LdZMhpjeFon6XErO4TwYZbk7lac2YpgX0MgxmXQiE="
             }
           },
           "ApiGatewayRestApi": {
@@ -249,11 +237,7 @@
               "MethodResponses": []
             }
           },
-<<<<<<< HEAD
-          "ApiGatewayDeployment1511447630555": {
-=======
-          "ApiGatewayDeployment1511448818281": {
->>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
+          "ApiGatewayDeployment1511449106634": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -309,11 +293,7 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-<<<<<<< HEAD
-              "Ref": "AppLambdaVersionw7TeN9vPqpaBiijOdeLqyVch5KnPTDOtTzpPmnrIJA"
-=======
-              "Ref": "AppLambdaVersionPxuzaZMNVZecWDZxHtrzQoYz7ApfvnGdxpy9xwBWr4M"
->>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
+              "Ref": "AppLambdaVersione2LdZMhpjeFon6XErO4TwYZbk7lac2YpgX0MgxmXQiE"
             }
           },
           "ServiceEndpoint": {
@@ -370,11 +350,7 @@
     "artifact": "/var/lib/jenkins/workspace/helloworld/.serverless/helloworld.zip"
   },
   "package": {
-<<<<<<< HEAD
-    "artifactDirectoryName": "serverless/helloworld/dev/1511447630546-2017-11-23T14:33:50.546Z",
-=======
-    "artifactDirectoryName": "serverless/helloworld/dev/1511448818271-2017-11-23T14:53:38.271Z",
->>>>>>> b23f62752b229edd1fdbc2b02897074c3416ffe2
+    "artifactDirectoryName": "serverless/helloworld/dev/1511449106624-2017-11-23T14:58:26.624Z",
     "artifact": "helloworld.zip"
   }
 }
