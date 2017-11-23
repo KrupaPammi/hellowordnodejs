@@ -7,7 +7,7 @@ Create a personal AWS account
 
 Jenkins
 -------- 
-instal Jenkins
+install Jenkins
 ```
 # sudo apt-get install jenkins
 ```
