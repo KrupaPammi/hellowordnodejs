@@ -106,7 +106,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/helloworld/dev/1511450392431-2017-11-23T15:19:52.431Z/helloworld.zip"
+                "S3Key": "serverless/helloworld/dev/1511533303853-2017-11-24T14:21:43.853Z/helloworld.zip"
               },
               "FunctionName": "helloworld-dev-app",
               "Handler": "hello.handler",
@@ -125,14 +125,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "AppLambdaVersionLzjBAGKdOQ8V7g7t0iBsFCLxAK2aPw6nt6W7k60oFo": {
+          "AppLambdaVersionID7LWsV2u0B9tm2mqREbAZ14wODDWlXoGIshCkiXKUU": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "AppLambdaFunction"
               },
-              "CodeSha256": "LzjBAGKdOQ8V7g7t0iBsFCLxAK2aP+w6nt6W7k60oFo="
+              "CodeSha256": "ID7LWsV2u0B9tm2mqREbAZ14wODDWlXoGIshCkiXKUU="
             }
           },
           "ApiGatewayRestApi": {
@@ -237,7 +237,7 @@
               "MethodResponses": []
             }
           },
-          "ApiGatewayDeployment1511450392441": {
+          "ApiGatewayDeployment1511533303866": {
             "Type": "AWS::ApiGateway::Deployment",
             "Properties": {
               "RestApiId": {
@@ -293,7 +293,7 @@
           "AppLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "AppLambdaVersionLzjBAGKdOQ8V7g7t0iBsFCLxAK2aPw6nt6W7k60oFo"
+              "Ref": "AppLambdaVersionID7LWsV2u0B9tm2mqREbAZ14wODDWlXoGIshCkiXKUU"
             }
           },
           "ServiceEndpoint": {
@@ -350,7 +350,7 @@
     "artifact": "/var/lib/jenkins/workspace/helloworld/.serverless/helloworld.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/helloworld/dev/1511450392431-2017-11-23T15:19:52.431Z",
+    "artifactDirectoryName": "serverless/helloworld/dev/1511533303853-2017-11-24T14:21:43.853Z",
     "artifact": "helloworld.zip"
   }
 }
